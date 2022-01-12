@@ -61,5 +61,9 @@
 	<root level="INFO">
 		<appender-ref ref="FILE-ERROR" />
 	</root>
+	
+	<root level="ERROR">
+		<appender-ref ref="FILE-ERROR" />
+	</root>
 
 </configuration>
